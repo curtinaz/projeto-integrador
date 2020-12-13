@@ -60,6 +60,10 @@ header a + a {
     margin-left: 16px;
 }
 
+#entrar:hover {
+    background-color: rgb(189, 255, 205);
+}
+
 /* SECTIONS */
 
 #inicio {
