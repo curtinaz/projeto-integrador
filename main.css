@@ -30,6 +30,7 @@ header {
     background-color: rgb(215, 212, 255);
     border-radius: 15px 15px 0 0;
     border-bottom: none;
+    animation: fadein 1s forwards;
 }
 
 header a {
@@ -63,6 +64,7 @@ header a + a {
     background-color: rgb(215, 212, 255);
     border-radius: 0 0 15px 15px;
     border-bottom: none;
+    animation: fadein 1s forwards;
 }
 
 #inicio h1 {
@@ -81,6 +83,7 @@ header a + a {
     border-bottom: none;
     transition: 500ms;
     flex-direction: column;
+    animation: fadein 1s forwards;
 }
 
 #outro h1 {
