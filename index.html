@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeWORLD</title>
     <link rel="stylesheet" href="./main.css">
-    <script src="./scripts.js"></script>
-    <script src="jquery-1.3.2.min.js"></script>
 </head>
 <body>
     <div style="margin-top: 5%;" class="center">
-    <img src="./logo.png" alt="Logotipo Code">
+    <img id="logo" src="./logo.png" alt="Logotipo Code">
     </div>
 
     <div class="center">
     <header>
         <a onclick="clickinicio()" href="#inicio">Inicio</a>
-        <a onclick="clickoutro()" href="#outro">Outro</a>
+        <a onclick="clickvideos()" href="#videos">Videos</a>
         <a href="#">Inicio</a>
         <a href="#">Inicio</a>
     </header></div>
@@ -24,9 +22,9 @@
     <div class="center">
         <section id="inicio">
             <h1>Quer se tornar um <strong>bom programador?</strong></h1>
-            <p>Lorem ipsum</p>
+            <p>Proin et iaculis dolor. Cras ut odio ut ipsum pharetra imperdiet. Vivamus quis velit eu enim convallis mollis. Sed nunc enim, porttitor id diam eget, euismod convallis ipsum. Sed sagittis vitae diam sagittis tristique. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sagittis porta est eu convallis. Suspendisse odio orci, accumsan vitae pellentesque eu, lacinia eu dui. Duis congue dapibus diam, at porttitor eros luctus et. Aenean et dolor posuere dui sollicitudin interdum. Cras nec neque odio. Ut sed magna hendrerit, varius mi ut, varius purus. Aliquam erat volutpat. In molestie felis nibh, at mattis risus aliquam at. Cras eu sapien in massa lacinia molestie quis et quam. Nunc tincidunt, turpis a hendrerit facilisis, magna purus tincidunt risus, dictum dapibus neque elit <a href="#videos" onclick="clickvideos()">clique aqui!</a></p>
         </section>
-        <section style="display: none;" id="outro">
+        <section style="display: none;" id="videos">
             <h1>Ultimos vídeos</h1>
             <div id="cards">
                 <div id="card">
@@ -51,5 +49,9 @@
     </div>
 
 
+
+    <script src="./scripts.js"></script>
+    <script src="jquery-1.3.2.min.js"></script>
+    
 </body>
 </html>

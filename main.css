@@ -12,6 +12,12 @@ body {
     /* box-shadow: rgba(0, 0, 0, 0.356) 0px 0px 50px 0px; */
 }
 
+.unselect, header a, #card {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
 .center {
     display: flex;
     align-items: center;
@@ -40,12 +46,14 @@ header a {
     transition: 200ms;
     color: rgb(151, 77, 180);
     animation: fadein 1s forwards;
+    user-select: none;
 }
 
 header a:hover {
     background-color: rgb(235, 234, 255);
     border-radius: 5px;
     transition: 300ms;
+    letter-spacing: 2px;
 }
 
 header a + a {
@@ -73,7 +81,25 @@ header a + a {
     font-weight: 400;
 }
 
-#outro {
+#inicio p {
+    padding: 10px;
+}
+
+#inicio a {
+    text-decoration: none;
+    transition: 200ms;
+    color: rgb(151, 77, 180);
+    animation: fadein 1s forwards;
+}
+
+#inicio a:hover {
+    transition: 300ms;
+    letter-spacing: 1px;
+}
+
+/* INÍCIO DA ABA VÍDEOS */
+
+#videos {
     padding: 5px;
     border: 2px solid rgb(166, 120, 184);
     width: clamp(40%, 60%, 80%);
@@ -88,14 +114,25 @@ header a + a {
     animation: fadein 1s forwards;
 }
 
-#outro h1 {
+#videos h1 {
     animation: fadein 1s forwards;
     padding: 10px;
     font-weight: 400;
 }
 
-#outro img {
+#videos img {
     width: 80%;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+#videos img:hover {
+    transition: 350ms;
+    width: 85%;
+}
+
+#videos p {
+    padding: 10px;
 }
 
 #cards, #card {

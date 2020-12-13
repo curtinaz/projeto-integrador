@@ -1,23 +1,27 @@
 
 // const inicio = document.querySelector('#inicio')
-// const outro = document.querySelector('#outro')
+// const videos = document.querySelector('#videos')
 
 function clickinicio() {
     inicio = document.querySelector('#inicio')
-    outro = document.querySelector('#outro')
+    videos = document.querySelector('#videos')
 
-    outro.style = "display:none; transition:500ms";
+    videos.style = "display:none; transition:500ms";
 
     inicio.style = "display:flex; transition:500ms";
 
 }
 
-function clickoutro() {
+function clickvideos() {
     inicio = document.querySelector('#inicio')
-    outro = document.querySelector('#outro')
+    videos = document.querySelector('#videos')
 
     inicio.style = "display:none; transition:500ms";
 
-    outro.style = "display:flex; transition:500ms";
+    videos.style = "display:flex; transition:500ms";
 
 }
+
+// Não arrastar o logo
+
+document.getElementById('#logo').ondragstart = function() { return false; };
