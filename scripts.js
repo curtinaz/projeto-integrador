@@ -18,6 +18,7 @@ function clickvideos() {
     login = document.querySelector('#login')
 
     inicio.style = "display:none; transition:500ms";
+    login.style = "display:none; transition:500ms";
 
     videos.style = "display:flex; transition:500ms";
 }
@@ -28,8 +29,9 @@ function clickentrar() {
     login = document.querySelector('#login')
 
     inicio.style = "display:none; transition:500ms";
+    videos.style = "display:none; transition:500ms";
 
-    videos.style = "display:flex; transition:500ms";
+    login.style = "display:flex; transition:500ms";
 }
 
 // Não arrastar o logo

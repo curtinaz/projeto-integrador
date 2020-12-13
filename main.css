@@ -149,6 +149,43 @@ header a + a {
     flex-direction: column;
 }
 
+/* INICIO DA ABA LOGIN */
+
+#login {
+    padding: 5px;
+    border: 2px solid rgb(166, 120, 184);
+    width: clamp(40%, 60%, 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 212, 255);
+    border-radius: 0 0 15px 15px;
+    border-bottom: none;
+    animation: fadein 1s forwards;
+}
+
+#login h1 {
+    animation: fadein 1s forwards;
+    padding: 10px;
+    font-weight: 400;
+}
+
+#login p {
+    padding: 10px;
+}
+
+#login a {
+    text-decoration: none;
+    transition: 200ms;
+    color: rgb(151, 77, 180);
+    animation: fadein 1s forwards;
+}
+
+#login a:hover {
+    transition: 300ms;
+    letter-spacing: 1px;
+}
+
 @keyframes fadein {
     from {
         opacity: 0%;
