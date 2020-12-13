@@ -9,6 +9,15 @@
 
 body {
     background-color: rgb(151, 77, 180);
+}
+
+#pre-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pre-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,8 +40,10 @@ header {
 header a {
     text-decoration: none;
     padding: 10px;
-    transition: 300ms;
     text-transform: uppercase;
+    transition: 200ms;
+    color: rgb(151, 77, 180);
+    animation: fadein 1s forwards;
 }
 
 header a:hover {
@@ -43,5 +54,28 @@ header a:hover {
 
 header a + a {
     margin-left: 16px;
+}
 
+/* SECTIONS */
+
+#inicio {
+    padding: 5px;
+    border: 2px solid rgb(166, 120, 184);
+    width: clamp(40%, 60%, 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 212, 255);
+    border-radius: 0 0 15px 15px;
+    border-bottom: none;
+    transition: 200ms;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
 }
