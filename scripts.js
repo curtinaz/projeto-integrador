@@ -8,6 +8,7 @@ function clickinicio() {
     login = document.querySelector('#login')
 
     videos.style = "display:none; transition:500ms";
+    login.style = "display:none; transition:500ms";
 
     inicio.style = "display:flex; transition:500ms";
 }
