@@ -35,6 +35,6 @@ function clickentrar() {
     login.style = "display:flex; transition:500ms";
 }
 
-// Não arrastar o logo
+// Não arrastar o logo (não funcionou)
 
-document.getElementById('#logo').ondragstart = function() { return false; };
+// document.getElementById('#logo').ondragstart = function() { return false; };
