@@ -39,7 +39,7 @@ function clickentrar() {
     login.style = "display:flex; transition:500ms";
 }
 
-function clickbtnlogin() {
+async function clickbtnlogin() {
 
 }
 
