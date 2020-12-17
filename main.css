@@ -294,7 +294,7 @@ header a + a {
     outline: 0;
 }
 
-#login input {
+#create input {
     transition: ease-in-out;
     padding: 4px 0;
     width: 20%;
@@ -303,7 +303,7 @@ header a + a {
     border-bottom: 0.5px solid blueviolet ;
 }
 
-#login-btn {
+#create-btn {
     margin-top: 20px;
     margin-bottom: 50px;
 
