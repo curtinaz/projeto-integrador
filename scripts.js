@@ -39,6 +39,19 @@ function clickentrar() {
     login.style = "display:flex; transition:500ms";
 }
 
+function clickcreate() {
+    inicio = document.querySelector('#inicio')
+    videos = document.querySelector('#videos')
+    login = document.querySelector('#login')
+    create = document.querySelector('#create')
+
+    inicio.style = "display:none; transition:500ms";
+    login.style = "display:none; transition:500ms";
+    videos.style = "display:none; transition:500ms";
+
+    create.style = "display:flex; transition:500ms";
+}
+
 async function clickbtnlogin() {
     await sleep(5000);
     alert("Usuário não encontrado");
