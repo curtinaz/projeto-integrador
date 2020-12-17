@@ -271,7 +271,7 @@ header a + a {
     padding: 10px;
 }
 
-#login a {
+#create a {
     text-decoration: none;
     transition: 200ms;
     color: rgb(151, 77, 180);
