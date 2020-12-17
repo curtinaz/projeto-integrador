@@ -12,6 +12,12 @@ body {
     /* box-shadow: rgba(0, 0, 0, 0.356) 0px 0px 50px 0px; */
 }
 
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
 .unselect, header a, #card {
     user-select: none;
     -moz-user-select: none;
@@ -145,7 +151,7 @@ header a + a {
     justify-content: center;
 }
 
-#card, #inicio {
+#card, #inicio, #login {
     flex-direction: column;
 }
 
@@ -162,6 +168,7 @@ header a + a {
     border-radius: 0 0 15px 15px;
     border-bottom: none;
     animation: fadein 1s forwards;
+    min-height: 200px;
 }
 
 #login h1 {
@@ -184,6 +191,77 @@ header a + a {
 #login a:hover {
     transition: 300ms;
     letter-spacing: 1px;
+}
+
+#login input:focus, #login textarea:focus, #login select:focus {
+    animation: ocus 200ms forwards;
+    transition: 200ms;
+}
+
+#loginbtn input:focus, #loginbtn textarea:focus, #loginbtn select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#login input {
+    transition: ease-in-out;
+    padding: 4px 0;
+    width: 20%;
+    background-color: rgb(215, 212, 255);
+    margin-top: 10px;
+    border-bottom: 0.5px solid blueviolet ;
+}
+
+#login-btn {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    padding: 10px 20px;
+
+    width: 35%;
+
+    border: 2px solid rgb(166, 120, 184);
+    border-radius: 10px;
+    background-color: rgb(215, 212, 255);
+    color:  rgb(166, 120, 184);
+
+    cursor: pointer;
+
+    transition: 400ms;
+}
+
+#login-btn:hover {
+    letter-spacing: 3px;
+    transition: 400ms;
+}
+
+#login-btn:focus {
+    animation: loginbtn 10s forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ocus {
+    from {
+        border-bottom: 1px solid blueviolet ;
+    }
+    to {
+        border-bottom: 3px solid blueviolet ;
+        width: 60%;
+    }
+}
+
+@keyframes loginbtn {
+    0%, 5%, 15%, 25% {
+        background-color: rgb(133, 184, 120);
+    }
+    10%, 20% {
+        background-color: rgb(184, 120, 120);
+    }
+    30% {
+        background-color: rgb(179, 81, 81);
+        color: white;
+    }
 }
 
 @keyframes fadein {
