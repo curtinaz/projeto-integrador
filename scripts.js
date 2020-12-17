@@ -73,6 +73,19 @@ async function clickbtnlogin() {
 }
 
 async function clickbtnsignup() {
+    login = document.querySelector('#su-username')
+    password = document.querySelector('#su-password')
+    mail = document.querySelector('#su-mail')
+    let arroba = /[@]/g
     await sleep(5000);
-    alert("Pedido de criação de conta enviado com sucesso!");
+
+    if (login.value.length==0) {
+        alert("O login não pode ficar em branco")
+    } else if (password.value.length==0) {
+        alert("A senha não pode ficar em branco")
+    } else if (mail.value.length==0) {
+        alert("A email não pode ficar em branco")
+    } else if (mail.value.search(arroba)<=0) {
+        alert("O email deve conter um arroba (@)")
+    } else alert("Pedido de criação de conta enviado com sucesso!");
 }
