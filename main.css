@@ -278,7 +278,7 @@ header a + a {
     animation: fadein 1s forwards;
 }
 
-#login a:hover {
+#create a:hover {
     transition: 300ms;
     letter-spacing: 1px;
 }
