@@ -243,6 +243,7 @@ header a + a {
 
 #create {
     margin-bottom: 15px;
+    padding: 10px;
 }
 
 @keyframes ocus {
