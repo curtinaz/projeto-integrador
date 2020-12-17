@@ -58,6 +58,13 @@ function clickcreate() {
     create.style = "display:flex; transition:500ms";
 }
 
+BOTÕES DE LOGIN E REGISTRO
+
+async function clickbtnlogin() {
+    await sleep(5000);
+    alert("Usuário não encontrado");
+}
+
 async function clickbtnlogin() {
     await sleep(5000);
     alert("Usuário não encontrado");
