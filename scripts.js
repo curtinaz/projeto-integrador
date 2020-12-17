@@ -67,7 +67,7 @@ async function clickbtnlogin() {
     password = document.querySelector('#li-password')
     await sleep(5000);
 
-    if (login=="") {
+    if (login=null) {
         alert("O login não pode ficar em branco")
     }
 
