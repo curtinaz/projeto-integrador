@@ -237,7 +237,7 @@ header a + a {
 }
 
 #login-btn:focus {
-    animation: loginbtn 10s forwards;
+    animation: loginbtn 15s forwards;
     animation-fill-mode: forwards;
 }
 
