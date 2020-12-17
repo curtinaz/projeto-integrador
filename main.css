@@ -283,7 +283,7 @@ header a + a {
     letter-spacing: 1px;
 }
 
-#login input:focus, #login textarea:focus, #login select:focus {
+#create input:focus, #login textarea:focus, #login select:focus {
     animation: ocus 200ms forwards;
     transition: 200ms;
 }
