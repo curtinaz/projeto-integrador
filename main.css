@@ -151,7 +151,7 @@ header a + a {
     justify-content: center;
 }
 
-#card, #inicio, #login {
+#card, #inicio, #login, #create {
     flex-direction: column;
 }
 
