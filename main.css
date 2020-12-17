@@ -254,9 +254,11 @@ header a + a {
 @keyframes loginbtn {
     0%, 5%, 15%, 25% {
         background-color: rgb(133, 184, 120);
+        color: white;
     }
     10%, 20% {
         background-color: rgb(184, 120, 120);
+        color: white;
     }
     30% {
         background-color: rgb(179, 81, 81);
