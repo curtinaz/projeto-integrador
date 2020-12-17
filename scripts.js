@@ -58,7 +58,7 @@ function clickcreate() {
     create.style = "display:flex; transition:500ms";
 }
 
-BOTÕES DE LOGIN E REGISTRO
+// BOTÕES DE LOGIN E REGISTRO
 
 async function clickbtnlogin() {
     await sleep(5000);
