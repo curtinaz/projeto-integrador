@@ -69,9 +69,7 @@ async function clickbtnlogin() {
         alert("O login não pode ficar em branco")
     } else if (password.value.length==0) {
         alert("A senha não pode ficar em branco")
-    } else {
-
-    alert("Usuário não encontrado"); }
+    } else alert("Os dados informados são invalidos");
 }
 
 async function clickbtnsignup() {
