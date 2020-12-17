@@ -2,6 +2,10 @@
 // const inicio = document.querySelector('#inicio')
 // const videos = document.querySelector('#videos')
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function clickinicio() {
     inicio = document.querySelector('#inicio')
     videos = document.querySelector('#videos')
@@ -33,6 +37,10 @@ function clickentrar() {
     videos.style = "display:none; transition:500ms";
 
     login.style = "display:flex; transition:500ms";
+}
+
+function clickbtnlogin() {
+
 }
 
 // Não arrastar o logo (não funcionou)
