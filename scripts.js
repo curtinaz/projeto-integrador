@@ -10,9 +10,10 @@ function clickinicio() {
     inicio = document.querySelector('#inicio')
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
-
+    
     videos.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
+    create.style = "display:none; transition:500ms";
 
     inicio.style = "display:flex; transition:500ms";
 }
@@ -24,6 +25,7 @@ function clickvideos() {
 
     inicio.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
+    create.style = "display:none; transition:500ms";
 
     videos.style = "display:flex; transition:500ms";
 }
@@ -35,6 +37,7 @@ function clickentrar() {
 
     inicio.style = "display:none; transition:500ms";
     videos.style = "display:none; transition:500ms";
+    create.style = "display:none; transition:500ms";
 
     login.style = "display:flex; transition:500ms";
 }
