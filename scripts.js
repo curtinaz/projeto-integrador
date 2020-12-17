@@ -40,7 +40,8 @@ function clickentrar() {
 }
 
 async function clickbtnlogin() {
-
+    await sleep(5000);
+    alert("Usuário não encontrado");
 }
 
 // Não arrastar o logo (não funcionou)
