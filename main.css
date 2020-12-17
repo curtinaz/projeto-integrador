@@ -321,7 +321,7 @@ header a + a {
     transition: 400ms;
 }
 
-#login-btn:hover {
+#create-btn:hover {
     letter-spacing: 3px;
     transition: 400ms;
 }
