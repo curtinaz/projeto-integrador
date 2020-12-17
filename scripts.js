@@ -60,8 +60,17 @@ function clickcreate() {
 
 // BOTÕES DE LOGIN E REGISTRO
 
+
+
 async function clickbtnlogin() {
+    login = document.querySelector('#li-username')
+    password = document.querySelector('#li-password')
     await sleep(5000);
+
+    if (login=="") {
+        alert("O login não pode ficar em branco")
+    }
+
     alert("Usuário não encontrado");
 }
 
