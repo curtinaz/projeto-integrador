@@ -65,7 +65,7 @@ async function clickbtnlogin() {
     alert("Usuário não encontrado");
 }
 
-async function clickbtnlogin() {
+async function clickbtnsignup() {
     await sleep(5000);
     alert("Usuário não encontrado");
 }
