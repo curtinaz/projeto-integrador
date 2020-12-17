@@ -326,7 +326,7 @@ header a + a {
     transition: 400ms;
 }
 
-#login-btn:focus {
+#create-btn:focus {
     animation: loginbtn 15s forwards;
     animation-fill-mode: forwards;
 }
