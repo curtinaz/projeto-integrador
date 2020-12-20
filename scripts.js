@@ -11,6 +11,7 @@ function clickinicio() {
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
     create = document.querySelector('#create')
+    vid1 = document.querySelector('#vid1')
     
     videos.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
@@ -24,6 +25,7 @@ function clickvideos() {
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
     create = document.querySelector('#create')
+    vid1 = document.querySelector('#vid1')
 
     inicio.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
@@ -37,6 +39,7 @@ function clickentrar() {
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
     create = document.querySelector('#create')
+    vid1 = document.querySelector('#vid1')
 
     inicio.style = "display:none; transition:500ms";
     videos.style = "display:none; transition:500ms";
@@ -50,6 +53,7 @@ function clickcreate() {
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
     create = document.querySelector('#create')
+    vid1 = document.querySelector('#vid1')
 
     inicio.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
@@ -74,17 +78,20 @@ async function clickbtnlogin() {
 
 // Videos
 
-function clickentrar() {
+function clickvid1() {
     inicio = document.querySelector('#inicio')
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
     create = document.querySelector('#create')
 
+    vid1 = document.querySelector('#vid1')
+
     inicio.style = "display:none; transition:500ms";
     videos.style = "display:none; transition:500ms";
     create.style = "display:none; transition:500ms";
 
-    login.style = "display:flex; transition:500ms";
+
+    vid1.style = "display:flex; transition:500ms";
 }
 
 async function clickbtnsignup() {
