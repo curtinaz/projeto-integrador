@@ -89,6 +89,9 @@ function clickvid1() {
     create = document.querySelector('#create')
 
     vid1 = document.querySelector('#vid1')
+    vid2 = document.querySelector('#vid2')
+    vid3 = document.querySelector('#vid3')
+    vid4 = document.querySelector('#vid4')
 
     inicio.style = "display:none; transition:500ms";
     videos.style = "display:none; transition:500ms";
