@@ -187,7 +187,7 @@ function clickvid4() {
     create.style = "display:none; transition:500ms";
 
 
-    vid1.style = "display:flex; transition:500ms";
+    vid4.style = "display:flex; transition:500ms";
 }
 
 async function clickbtnsignup() {
