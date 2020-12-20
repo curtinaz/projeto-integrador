@@ -72,6 +72,21 @@ async function clickbtnlogin() {
     } else alert("Os dados informados são invalidos");
 }
 
+// Videos
+
+function clickentrar() {
+    inicio = document.querySelector('#inicio')
+    videos = document.querySelector('#videos')
+    login = document.querySelector('#login')
+    create = document.querySelector('#create')
+
+    inicio.style = "display:none; transition:500ms";
+    videos.style = "display:none; transition:500ms";
+    create.style = "display:none; transition:500ms";
+
+    login.style = "display:flex; transition:500ms";
+}
+
 async function clickbtnsignup() {
     login = document.querySelector('#su-username')
     password = document.querySelector('#su-password')
