@@ -16,6 +16,7 @@ function clickinicio() {
     videos.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
     create.style = "display:none; transition:500ms";
+    vid1.style = "display:none; transition:500ms";
 
     inicio.style = "display:flex; transition:500ms";
 }
@@ -30,6 +31,7 @@ function clickvideos() {
     inicio.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
     create.style = "display:none; transition:500ms";
+    vid1.style = "display:none; transition:500ms";
 
     videos.style = "display:flex; transition:500ms";
 }
@@ -44,6 +46,7 @@ function clickentrar() {
     inicio.style = "display:none; transition:500ms";
     videos.style = "display:none; transition:500ms";
     create.style = "display:none; transition:500ms";
+    vid1.style = "display:none; transition:500ms";
 
     login.style = "display:flex; transition:500ms";
 }
@@ -58,6 +61,7 @@ function clickcreate() {
     inicio.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
     videos.style = "display:none; transition:500ms";
+    vid1.style = "display:none; transition:500ms";
 
     create.style = "display:flex; transition:500ms";
 }
