@@ -66,7 +66,11 @@ function clickentrar() {
     inicio.style = "display:none; transition:500ms";
     videos.style = "display:none; transition:500ms";
     create.style = "display:none; transition:500ms";
+
     vid1.style = "display:none; transition:500ms";
+    vid2.style = "display:none; transition:500ms";
+    vid3.style = "display:none; transition:500ms";
+    vid4.style = "display:none; transition:500ms";
 
     login.style = "display:flex; transition:500ms";
 }
