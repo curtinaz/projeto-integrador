@@ -151,7 +151,7 @@ header a + a {
     justify-content: center;
 }
 
-#card, #inicio, #login, #create {
+#card, #inicio, #login, #create, .corpo {
     flex-direction: column;
 }
 
@@ -329,6 +329,27 @@ header a + a {
 #create-btn:focus {
     animation: loginbtn 15s forwards;
     animation-fill-mode: forwards;
+}
+
+/* VIDEOS */
+
+.corpo {
+    padding: 5px;
+    border: 2px solid rgb(166, 120, 184);
+    width: clamp(40%, 60%, 80%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 212, 255);
+    border-radius: 0 0 15px 15px;
+    border-bottom: none;
+    animation: fadein 1s forwards;
+}
+
+.corpo h1 {
+    animation: fadein 1s forwards;
+    padding: 10px;
+    font-weight: 400;
 }
 
 @keyframes ocus {
