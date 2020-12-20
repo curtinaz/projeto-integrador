@@ -149,7 +149,7 @@ function clickvid2() {
     create.style = "display:none; transition:500ms";
 
 
-    vid1.style = "display:flex; transition:500ms";
+    vid2.style = "display:flex; transition:500ms";
 }
 
 function clickvid3() {
