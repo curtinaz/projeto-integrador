@@ -98,7 +98,7 @@ function clickvid1() {
     vid1.style = "display:flex; transition:500ms";
 }
 
-function clickvid1() {
+function clickvid2() {
     inicio = document.querySelector('#inicio')
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
@@ -114,7 +114,7 @@ function clickvid1() {
     vid1.style = "display:flex; transition:500ms";
 }
 
-function clickvid1() {
+function clickvid3() {
     inicio = document.querySelector('#inicio')
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
@@ -130,7 +130,7 @@ function clickvid1() {
     vid1.style = "display:flex; transition:500ms";
 }
 
-function clickvid1() {
+function clickvid4() {
     inicio = document.querySelector('#inicio')
     videos = document.querySelector('#videos')
     login = document.querySelector('#login')
