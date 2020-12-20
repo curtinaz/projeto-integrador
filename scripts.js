@@ -20,7 +20,10 @@ function clickinicio() {
     videos.style = "display:none; transition:500ms";
     login.style = "display:none; transition:500ms";
     create.style = "display:none; transition:500ms";
-    
+
+    vid1.style = "display:none; transition:500ms";
+    vid1.style = "display:none; transition:500ms";
+    vid1.style = "display:none; transition:500ms";
     vid1.style = "display:none; transition:500ms";
 
     inicio.style = "display:flex; transition:500ms";
