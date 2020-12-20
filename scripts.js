@@ -22,9 +22,9 @@ function clickinicio() {
     create.style = "display:none; transition:500ms";
 
     vid1.style = "display:none; transition:500ms";
-    vid1.style = "display:none; transition:500ms";
-    vid1.style = "display:none; transition:500ms";
-    vid1.style = "display:none; transition:500ms";
+    vid2.style = "display:none; transition:500ms";
+    vid3.style = "display:none; transition:500ms";
+    vid4.style = "display:none; transition:500ms";
 
     inicio.style = "display:flex; transition:500ms";
 }
